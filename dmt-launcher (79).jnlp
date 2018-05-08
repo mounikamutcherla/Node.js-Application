@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<jnlp spec="6.0+" codebase="https://tdyloncastc01.podc.sl.edst.ibm.com/CAST-AICP/" href="b4d03259-6f10-4259-85d7-91a00092b3e4/dmt-launcher.jnlp">
+    <information>
+        <title>Deliver for GIT</title>
+                    <vendor>CAST Software</vendor>
+                <homepage href="index.html"/>
+        <icon href="apps/DMT.ico" kind="shortcut"/>
+        <icon href="apps/truck_48.png" kind="default"/>
+        <icon href="apps/setup_DMT.jpg" kind="splash" width="469" height="333"/>
+        <offline-allowed/>
+        <shortcut online="true">
+            <menu submenu="CAST 8.2/Delivery Manager Tool/To tdyloncastc01.podc.sl.edst.ibm.com-CAST-AICP-/"/>
+        </shortcut>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <update check="always" policy="always"/>
+    <resources>
+        <j2se version="1.7+" java-vm-args="" href="http://java.sun.com/products/autodl/j2se"/>
+        <property name="jnlp.dmt.oneApplicationMode" value="b4d03259-6f10-4259-85d7-91a00092b3e4"/>
+        		<jar href="apps/jnlp-installer_lib/apache-mime4j-0.6.jar" />
+		<jar href="apps/jnlp-installer_lib/CAST-AuthKey-8.2.6.jar" />
+		<jar href="apps/jnlp-installer_lib/CAST-Credentials-8.2.6.jar" />
+		<jar href="apps/jnlp-installer_lib/CAST-HttpConnectivityClient-8.2.6.jar" />
+		<jar href="apps/jnlp-installer_lib/CAST-Java-8.2.6.jar" />
+		<jar href="apps/jnlp-installer_lib/CAST-ProxyUtil-8.2.6.jar" />
+		<jar href="apps/jnlp-installer_lib/CAST-Utilities-8.2.6.jar" />
+		<jar href="apps/jnlp-installer_lib/cglib-nodep-2.2.2.jar" />
+		<jar href="apps/jnlp-installer_lib/commons-codec-1.3.jar" />
+		<jar href="apps/jnlp-installer_lib/commons-fileupload-1.2.2.jar" />
+		<jar href="apps/jnlp-installer_lib/commons-io-2.0.1.jar" />
+		<jar href="apps/jnlp-installer_lib/commons-logging-1.1.1.jar" />
+		<jar href="apps/jnlp-installer_lib/httpclient-4.0.3.jar" />
+		<jar href="apps/jnlp-installer_lib/httpcore-4.0.1.jar" />
+		<jar href="apps/jnlp-installer_lib/httpmime-4.0.3.jar" />
+		<jar href="apps/jnlp-installer_lib/javassist-3.18.0-GA.jar" />
+		<jar href="apps/jnlp-installer_lib/jna-3.4.0.jar" />
+		<jar href="apps/jnlp-installer_lib/jnlp-installer-8.2.6.jar" main="true" />
+		<jar href="apps/jnlp-installer_lib/platform-3.4.0.jar" />
+		<jar href="apps/jnlp-installer_lib/protobuf-java-2.4.1.jar" />
+		<jar href="apps/jnlp-installer_lib/servlet-api-2.5-6.1.14.jar" />
+
+    </resources>
+    <application-desc main-class="com.castsoftware.JnlpInstaller"/>
+</jnlp>
+
